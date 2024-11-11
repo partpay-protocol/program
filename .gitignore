@@ -1,0 +1,17 @@
+# Build output
+/target
+**/*.rs.bk
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Solana
+test-ledger/
+.DS_Store
+
+# Keys - BE CAREFUL with keys!
+*.json
+!package.json
